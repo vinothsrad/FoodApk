@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:id="@+id/SplashImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:src="@drawable/swiggylogo">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vinoth Creation"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#E17839"
+        android:layout_marginLeft="40dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp">
+
+    </TextView>
+
+</RelativeLayout>
